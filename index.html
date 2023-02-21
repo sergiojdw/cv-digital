@@ -2,7 +2,7 @@
 <html lang="es">
     <head>
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-UA-Compatible" content="IE=chrome">
 <meta name="viewport" content="sidth=device-width, initial-scale=1.0">
 <title>Sergio Jara</title>
 <!-- Conexion del css -->
@@ -24,7 +24,7 @@
 <div class="banner">
 
     <div class="banner__logo">
-        <img src="#" alt="Logo Fipe" class="banner__img">
+        <img src="assets/img/logo.png" alt="Logo Checho" class="banner__img">
     </div>
     <div class="banner__title">
         <h1>Sergio Jara</h1>
@@ -45,7 +45,7 @@
             <div class="skill">
                 <div class="skill__txt">
                     <h5>html</h5>
-                    <span>75%</span>
+                    <span>95%</span>
                 </div>
 
                 <div class="skill__loader--ex">
@@ -54,19 +54,8 @@
             </div>
             <div class="skill">
                 <div class="skill__txt">
-                    <h5>html</h5>
-                    <span>75%</span>
-                </div>
-
-                <div class="skill__loader--ex">
-                    <div class="skill__loader--int"></div>
-                </div>
-            </div>
-
-            <div class="skill">
-                <div class="skill__txt">
-                    <h5>html</h5>
-                    <span>75%</span>
+                    <h5>css</h5>
+                    <span>85%</span>
                 </div>
 
                 <div class="skill__loader--ex">
@@ -76,8 +65,8 @@
 
             <div class="skill">
                 <div class="skill__txt">
-                    <h5>html</h5>
-                    <span>75%</span>
+                    <h5>Javascript</h5>
+                    <span>50%</span>
                 </div>
 
                 <div class="skill__loader--ex">
@@ -85,8 +74,16 @@
                 </div>
             </div>
 
-           
+            <div class="skill">
+                <div class="skill__txt">
+                    <h5>Wordpress</h5>
+                    <span>70%</span>
+                </div>
 
+                <div class="skill__loader--ex">
+                    <div class="skill__loader--int"></div>
+                </div>
+            </div>         
         </div>
 <!--Botones DEMO Y SOBRE MI-->
 <div class="section__btns">
@@ -96,7 +93,7 @@
         Demo Rell
     </a>
 
-    <a href="#" class="section__btns--2">
+    <a href="#" class="section__btns--2" id="sobremi">
         Sobre mi
         <i class="bx bx-chevron-right"></i>
             </a>
@@ -105,21 +102,21 @@
 
 </div>
     <!--============ Página 2 ============-->
-    <div class="page2">
+    <div class="page2" id="page2">
 
         <!--Barra superior-->
         <header class="header">
-            <img class="header__logo" src="#" alt="Fipe parado">
+            <img class="header__logo" src="assets/img/logo.png" alt="Checho parado">
 
             <a class="header__a" href="#" id="volver">
-                <i class="bx bx-chevron-left"></i>
+                <i class="header__icon bx bx-chevron-left"></i>
                 VOLVER
             </a>
         </header>
 
         <!-- Fotografia -->
         <section class="info__photo">
-            <img class="info__img" src="#" alt="Fipe asi como que no me doy cuenta">
+            <img class="info__img" src="assets/img/foto_perfil2.jpg" alt="Checho asi como que no me doy cuenta">
         </section>
 
         <!--Informacion Basica -->
@@ -129,7 +126,7 @@
                 <h2>Diseñador Web</h2>
             </div>
 
-            <ul>
+            <ul class="info__ul">
 
                 <li class="info__li">
                     <div class="info__icon">
@@ -167,18 +164,14 @@
 
         <!--Informacion del Perfil Profesional-->
         <section class="profile">
-            <div class="profile__titulo">
+            <div class="profile__title">
                 <i class="bx bxs-user"></i>
                 <h2>Perfil Profesional</h2>
             </div>
             <div class="profile__txt">
                 <p>
-                    Soy un fanatico del diseño y la informática. Creo que uniendo ambos mundos 
-                    genera una infinidad de caminos para crear un sin fin de soluciones 
-                    al mundo que nos rodea. Es por que mi vida gira en torno al 
-                    estudio constante de estas disciplinas. Quiero cumplir mi sueño 
-                    de programar como profesional. Actualmente hago cursos de capacitación, 
-                    mediante el cual me actualizo y pongo al máximo mis conocimientos. 
+                    Soy un fanatico del diseño y la informática. Quiero cumplir mi sueño de programar como profesional. 
+                    Actualmente hago cursos de capacitación, mediante el cual me actualizo y pongo al máximo mis conocimientos. 
                 </p>
 
             </div>
@@ -193,26 +186,29 @@
                 <h2>Estudios y experiencias</h2>
             </div>
             
-            <table>
-                <tr>
-                    <td class="studies__year">2020 - 2022</td>                 
-                    <td>Diseñador Freelance</td>
-                </tr>
-
-                <tr>
-                    <td class="studies__year">2022</td>
-                    <td>Analista en Sistema</td>
-                </tr>
-
-                <tr>
-                    <td class="studies__year">2022 - 2023</td>
-                    <td>Estudiante de Argentina Programa 4.0</td>
-                </tr>
-                <tr>
-                    <td class="studies__year">2007 - 2009</td>
-                    <td>Tecnico en Telecomunicaciones</td>
-                </tr>
-            </table>
+            <div class="studies__info">
+                <table>
+                    <tr>
+                        <td class="studies__year">2020 - 2023</td>                 
+                        <td>Estudiante de Argentina Programa 4.0</td>
+                    </tr>
+    
+                    <tr>
+                        <td class="studies__year">2021</td>
+                        <td>Diseñador Freelance</td>
+                    </tr>
+    
+                    <tr>
+                        <td class="studies__year">2010 - 2014</td>
+                        <td>Analista en Sistema</td>
+                    </tr>
+                    <tr>
+                        <td class="studies__year">2007 - 2009</td>
+                        <td>Tecnico en Telecomunicaciones</td>
+                    </tr>
+                </table>
+            </div>
+            
 
         </section>
     </div>
@@ -226,7 +222,7 @@
         </div>
 
         <div class="rrss__icons">
-            <a href=”https://wa.link/jf9v5r/” target=”_blank”>
+            <a href=”https://wa.link/kz2dkz/” target=”_blank”>
                 <i class="bx bxl-whatsapp"></i>
                 </a>
 
@@ -248,5 +244,7 @@
 
 </main>
 
+<!-- Conexion del Javascrip-->
+<script src="assets/js/app.js"></script>
     </body>
 </html>
